@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="493.0" prefWidth="800.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="com.example.loginconcept.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Pane prefHeight="449.0" prefWidth="713.0">
+      <children>
+         <ImageView fitHeight="592.0" fitWidth="1047.0" layoutX="-92.0" layoutY="-62.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../../../../../../OneDrive/Pictures/Screenshots/Screenshot%202024-09-07%20194800.png" />
+            </image>
+         </ImageView>
+          <Button layoutX="322.0" layoutY="256.0" onAction="#onHelloButtonClick" prefHeight="56.0" prefWidth="117.0" text="Login">
+            <font>
+               <Font name="DejaVu Serif Condensed Bold" size="24.0" />
+            </font>
+         </Button>
+         <Button layoutX="629.0" layoutY="410.0" onAction="#onHelloButtonClick" text="Create an Account!" />
+         <TextField layoutX="228.0" layoutY="146.0" prefHeight="25.0" prefWidth="305.0" promptText="Username" />
+         <PasswordField layoutX="228.0" layoutY="200.0" prefHeight="25.0" prefWidth="305.0" promptText="Password" />
+         <Label layoutX="139.0" prefHeight="94.0" prefWidth="483.0" text="(Name Of System)">
+            <font>
+               <Font name="DejaVu Serif Bold" size="47.0" />
+            </font>
+         </Label>
+         <Button layoutX="14.0" layoutY="410.0" onAction="#onHelloButtonClick" text="FAQ" />
+         <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="281.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true" />
+         <Label layoutX="351.0" layoutY="362.0" prefHeight="50.0" prefWidth="69.0" text="(Logo Here)" />
+      </children>
+   </Pane>
+</VBox>
